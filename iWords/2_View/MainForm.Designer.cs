@@ -32,6 +32,8 @@
             this.labelTotal = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonWrong = new System.Windows.Forms.Button();
+            this.buttonRight = new System.Windows.Forms.Button();
             this.buttonUnknown = new System.Windows.Forms.Button();
             this.labelEnglish = new System.Windows.Forms.Label();
             this.labelChinese = new System.Windows.Forms.Label();
@@ -50,8 +52,6 @@
             this.dateTimePickerExam = new System.Windows.Forms.DateTimePicker();
             this.labelDate = new System.Windows.Forms.Label();
             this.textBoxChinese = new System.Windows.Forms.TextBox();
-            this.buttonWrong = new System.Windows.Forms.Button();
-            this.buttonRight = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -84,7 +84,7 @@
             // 
             this.labelTotal.AutoSize = true;
             this.labelTotal.ForeColor = System.Drawing.Color.White;
-            this.labelTotal.Location = new System.Drawing.Point(363, 26);
+            this.labelTotal.Location = new System.Drawing.Point(374, 26);
             this.labelTotal.Name = "labelTotal";
             this.labelTotal.Size = new System.Drawing.Size(35, 14);
             this.labelTotal.TabIndex = 20;
@@ -93,7 +93,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(313, 26);
+            this.label5.Location = new System.Drawing.Point(324, 26);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 14);
             this.label5.TabIndex = 19;
@@ -114,6 +114,30 @@
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Training";
+            // 
+            // buttonWrong
+            // 
+            this.buttonWrong.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buttonWrong.Location = new System.Drawing.Point(86, 294);
+            this.buttonWrong.Name = "buttonWrong";
+            this.buttonWrong.Size = new System.Drawing.Size(87, 27);
+            this.buttonWrong.TabIndex = 18;
+            this.buttonWrong.TabStop = false;
+            this.buttonWrong.Text = "Wrong";
+            this.buttonWrong.UseVisualStyleBackColor = true;
+            this.buttonWrong.Click += new System.EventHandler(this.buttonWrong_Click);
+            // 
+            // buttonRight
+            // 
+            this.buttonRight.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buttonRight.Location = new System.Drawing.Point(365, 294);
+            this.buttonRight.Name = "buttonRight";
+            this.buttonRight.Size = new System.Drawing.Size(87, 27);
+            this.buttonRight.TabIndex = 19;
+            this.buttonRight.TabStop = false;
+            this.buttonRight.Text = "Right";
+            this.buttonRight.UseVisualStyleBackColor = true;
+            this.buttonRight.Click += new System.EventHandler(this.buttonRight_Click);
             // 
             // buttonUnknown
             // 
@@ -211,7 +235,7 @@
             // 
             this.labelRate.AutoSize = true;
             this.labelRate.ForeColor = System.Drawing.Color.White;
-            this.labelRate.Location = new System.Drawing.Point(534, 26);
+            this.labelRate.Location = new System.Drawing.Point(545, 26);
             this.labelRate.Name = "labelRate";
             this.labelRate.Size = new System.Drawing.Size(28, 14);
             this.labelRate.TabIndex = 8;
@@ -221,7 +245,7 @@
             // 
             this.labelConfirm.AutoSize = true;
             this.labelConfirm.ForeColor = System.Drawing.Color.White;
-            this.labelConfirm.Location = new System.Drawing.Point(246, 26);
+            this.labelConfirm.Location = new System.Drawing.Point(257, 26);
             this.labelConfirm.Name = "labelConfirm";
             this.labelConfirm.Size = new System.Drawing.Size(35, 14);
             this.labelConfirm.TabIndex = 7;
@@ -240,7 +264,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(436, 26);
+            this.label3.Location = new System.Drawing.Point(447, 26);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 14);
             this.label3.TabIndex = 5;
@@ -249,7 +273,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(183, 26);
+            this.label2.Location = new System.Drawing.Point(194, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 14);
             this.label2.TabIndex = 4;
@@ -258,7 +282,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(57, 26);
+            this.label1.Location = new System.Drawing.Point(68, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 14);
             this.label1.TabIndex = 3;
@@ -287,30 +311,6 @@
             this.textBoxChinese.Name = "textBoxChinese";
             this.textBoxChinese.Size = new System.Drawing.Size(233, 23);
             this.textBoxChinese.TabIndex = 0;
-            // 
-            // buttonWrong
-            // 
-            this.buttonWrong.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.buttonWrong.Location = new System.Drawing.Point(86, 294);
-            this.buttonWrong.Name = "buttonWrong";
-            this.buttonWrong.Size = new System.Drawing.Size(87, 27);
-            this.buttonWrong.TabIndex = 18;
-            this.buttonWrong.TabStop = false;
-            this.buttonWrong.Text = "Wrong";
-            this.buttonWrong.UseVisualStyleBackColor = true;
-            this.buttonWrong.Click += new System.EventHandler(this.buttonWrong_Click);
-            // 
-            // buttonRight
-            // 
-            this.buttonRight.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.buttonRight.Location = new System.Drawing.Point(365, 294);
-            this.buttonRight.Name = "buttonRight";
-            this.buttonRight.Size = new System.Drawing.Size(87, 27);
-            this.buttonRight.TabIndex = 19;
-            this.buttonRight.TabStop = false;
-            this.buttonRight.Text = "Right";
-            this.buttonRight.UseVisualStyleBackColor = true;
-            this.buttonRight.Click += new System.EventHandler(this.buttonRight_Click);
             // 
             // MainForm
             // 
