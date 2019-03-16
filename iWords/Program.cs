@@ -19,4 +19,10 @@ namespace iWords
             Application.Run(new MainForm());
         }
     }
+
+    // release note
+    // Ver.3 2019-3-16
+    // 1. remove exam time, use it as a general tool 
+    // 2. review time according to forget curve 
+
 }
