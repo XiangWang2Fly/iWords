@@ -73,14 +73,10 @@ namespace iWords._1_Model
                 int i = ran.Next(0, this.Words.Count);
                 word = this.Words[i];
 
-                // not confirm yet
-                if (word.Confirm == (new DateTime()).Date)
+                // not show today
+                if (word.Next.Date <= DateTime.Now.Date)
                 {
-                    // not show today
-                    if (word.Next.Date <= DateTime.Now.Date)
-                    {
-                        break;
-                    }
+                    break;
                 }
 
                 max--;
