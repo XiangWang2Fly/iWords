@@ -25,7 +25,7 @@ namespace iWords
         private Training training = new Training();
         private Config config = new Config();
         private Word word = new Word();
-        private int preSelect = 0;
+        private RememberStatus preSelect = RememberStatus.Invaild;
         #endregion
 
 
@@ -34,10 +34,11 @@ namespace iWords
         {
             InitializeComponent();
             this.Text = Common.Version;
-            this.dateTimePickerExam.Value = config.Exam;
+            this.buttonWrong.Visible = false;
+            this.buttonRight.Visible = false;
+            this.buttonNext.Visible = false;
             this.training.Load();
             this.training.Calc();
-            this.labelDay.Text = (this.config.Exam.Date - DateTime.Now.Date).Days.ToString();
             this.labelConfirm.Text = this.training.Confirm.ToString();
             this.labelTotal.Text = this.training.Words.Count.ToString();
             if (this.training.Words.Count > 0)
@@ -48,19 +49,17 @@ namespace iWords
             this.ShowNextWord();
         }
 
-        private void ShowNextWord()
-        {
-            word = this.training.GetNext();
-            this.labelChinese.Text = word.Chinese;
-            this.labelEnglish.Text = string.Empty;
-        }
+
 
         private void buttonConfirm_Click(object sender, EventArgs e)
         {
             if (this.labelChinese.Text != string.Empty)
             {
-                this.preSelect = 2;
+                this.preSelect = RememberStatus.Known;
                 this.labelEnglish.Text = word.English;
+                this.buttonWrong.Visible = true;
+                this.buttonRight.Visible = true;
+                this.buttonNext.Visible = false;
                 this.Refresh();
             }
         }
@@ -69,8 +68,11 @@ namespace iWords
         {
             if (this.labelChinese.Text != string.Empty)
             {
-                this.preSelect = 1;
+                this.preSelect = RememberStatus.Vague;
                 this.labelEnglish.Text = word.English;
+                this.buttonWrong.Visible = false;
+                this.buttonRight.Visible = false;
+                this.buttonNext.Visible = true;
                 this.Refresh();
             }
         }
@@ -79,8 +81,11 @@ namespace iWords
         {
             if (this.labelChinese.Text != string.Empty)
             {
-                this.preSelect = 0;
+                this.preSelect = RememberStatus.Unkonwn;
                 this.labelEnglish.Text = word.English;
+                this.buttonWrong.Visible = false;
+                this.buttonRight.Visible = false;
+                this.buttonNext.Visible = true;
                 this.Refresh();
             }
         }
@@ -111,7 +116,9 @@ namespace iWords
             if (this.labelEnglish.Text != string.Empty)
             {
                 this.ShowNextWord();
-                this.preSelect = -1;
+                this.preSelect = RememberStatus.Invaild;
+                this.buttonWrong.Visible = false;
+                this.buttonRight.Visible = false;
             }
         }
 
@@ -121,23 +128,24 @@ namespace iWords
             {
                 switch (preSelect)
                 {
-                    case 0:
-                        word.Next = DateTime.Now.AddDays(7);
+                    case RememberStatus.Unkonwn:
+                        word.Next = DateTime.Now.AddDays(6);
                         this.training.Edit = true;
                         break;
-                    case 1:
-                        word.Next = DateTime.Now.AddDays(14);
+                    case RememberStatus.Vague:
+                        word.Next = DateTime.Now.AddDays(6);
                         this.training.Edit = true;
                         break;
-                    case 2:
+                    case RememberStatus.Known:
                         if (word.Know.Date == (new DateTime()).Date)
                         {
                             word.Know = DateTime.Now;
-                            word.Next = DateTime.Now.AddDays(21);
+                            word.Next = DateTime.Now.AddDays(31);
                         }
                         else
                         {
                             word.Confirm = DateTime.Now;
+                            word.Next = DateTime.Now.AddDays(62);
                         }
                         this.training.Edit = true;
                         break;
@@ -147,8 +155,35 @@ namespace iWords
                 }
 
                 this.ShowNextWord();
-                this.preSelect = -1;
+                this.preSelect = RememberStatus.Invaild;
+                this.buttonWrong.Visible = false;
+                this.buttonRight.Visible = false;
             }
         }
+
+        private void buttonNext_Click(object sender, EventArgs e)
+        {
+            this.ShowNextWord();
+            this.preSelect = RememberStatus.Invaild;
+            this.buttonNext.Visible = false;
+        }
+
+        #region //-------------------- 2nd level methods --------------------------------
+        private void ShowNextWord()
+        {
+            word = this.training.GetNext();
+            this.labelChinese.Text = word.Chinese;
+            this.labelEnglish.Text = string.Empty;
+        }
+
+        enum RememberStatus
+        {
+            Invaild,
+            Unkonwn,
+            Vague,
+            Known
+        }
+
+        #endregion
     }
 }
