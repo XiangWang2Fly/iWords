@@ -11,7 +11,7 @@ namespace iWords.Utility
         /// <summary>
         /// version of current program
         /// </summary>
-        public static string Version = "Ver.2";
+        public static string Version = "Ver.3";
 
         /// <summary>
         /// convert string to int
