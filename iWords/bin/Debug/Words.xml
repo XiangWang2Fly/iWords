@@ -57,7 +57,7 @@
   <word chinese="你能不能快点去趟商店？" english="Would you run to the store?" next="2018/5/3" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="洗澡水好了" english="The bath is ready" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="还有多久才能做好呀？" english="How soon can you get it ready?" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="这刀挺好使的，是不是？" english="This knife cuts well, doesn't it?" next="2018/7/23" know="2018/7/2" confirm="0001/1/1" />
+  <word chinese="这刀挺好使的，是不是？" english="This knife cuts well, doesn't it?" next="2019/5/31" know="2018/7/2" confirm="2019/3/30" />
   <word chinese="开饭啦" english="Come and get it" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="手洗干净了吗？" english="Did you wash your hands well?" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="别弄洒了" english="Don't spill it!" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
@@ -759,4 +759,12 @@
   <word chinese="v.躲避" english="dodge" next="2019/3/23" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="v.展示，摊开" english="unfold" next="2019/3/23" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="n.刀刃，叶片" english="blade" next="2019/3/23" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="领域概念" english="domain concept" next="2019/4/4" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="概念类" english="conceptual class" next="2019/4/4" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="实现类" english="implementation class" next="2019/4/4" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="（机构、组织等的）开端" english="inception" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="细化" english="elaboration" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="移交" english="transition" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="科目" english="discipline" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="制品" english="artifact" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
 </words>
