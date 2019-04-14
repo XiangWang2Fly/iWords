@@ -55,7 +55,7 @@
   <word chinese="n.补助；零用钱" english="a'llowance" next="2018/7/23" know="2018/7/2" confirm="0001/1/1" />
   <word chinese="你能帮我准备餐具吗？" english="Would you help me set the table?" next="2018/7/23" know="2018/7/2" confirm="0001/1/1" />
   <word chinese="你能不能快点去趟商店？" english="Would you run to the store?" next="2018/5/3" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="洗澡水好了" english="The bath is ready" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="洗澡水好了" english="The bath is ready" next="2019/5/12" know="2019/4/11" confirm="0001/1/1" />
   <word chinese="还有多久才能做好呀？" english="How soon can you get it ready?" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="这刀挺好使的，是不是？" english="This knife cuts well, doesn't it?" next="2019/5/31" know="2018/7/2" confirm="2019/3/30" />
   <word chinese="开饭啦" english="Come and get it" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
@@ -84,7 +84,7 @@
   <word chinese="adj.通风良好的" english="drafty" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="这个房间很通风" english="It's drafty in this room" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="你去溜溜狗吧？" english="Will you take the dog for a walk?" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="请给植物浇点水" english="Please water the plants" next="2018/7/23" know="2018/7/2" confirm="0001/1/1" />
+  <word chinese="请给植物浇点水" english="Please water the plants" next="2019/6/15" know="2018/7/2" confirm="2019/4/14" />
   <word chinese="啊！怎么这么乱啊" english="What a mess!" next="2018/8/17" know="2018/7/27" confirm="0001/1/1" />
   <word chinese="把你的屋子收拾收拾" english="Clean up your room" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="n.洗涤剂" english="de'tergent" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
@@ -767,4 +767,41 @@
   <word chinese="移交" english="transition" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="科目" english="discipline" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="制品" english="artifact" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="疏忽" english="omission" next="2019/4/16" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="专业职称" english="professional designation" next="2019/4/16" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="仪器；仪表；工具；器械" english="instrument" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.交往；联想；联系；" english="associate" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.批判；拒绝；(国家,政府的)赖债；休妻" english="repudiation" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="不可抵赖性" english="non repudiation" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.实施；执行；表现；引导" english="conduct" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adj.合乎逻辑的；有条理的；清楚易懂的" english="coherent" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adj.有形的；实际的；真实的；" english="tangible" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.提供；给予；提交" english="render" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.更改；修改（衣服使更合身）" english="alter" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.长寿；长命；持久" english="longevity" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.摹本；传真本；复制本" english="fac'simile" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.产生；表现；显示" english="emanate" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.宣告；宣布；表明；声明" english="proclaim" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.保留；保持；维持；记忆力" english="retention" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="被许可人；被授权人" english="licen'see" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.同意；允许；赞同；准许" english="consent" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.压印浮凸字体（或图案）；凹凸印" english="em'boss" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.到来；（基督教）降临节" english="advent" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adv.尽管如此" english="notwithstanding" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.依赖；依靠；信任" english="re'liance" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adj.清晰可读的；清楚的" english="legible" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adj.含有字母和数字的；字母与数字并用的" english="alphanu'meric" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.排出；把…开除（或除名）；驱逐出境；喷出" english="expel" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.（法律等的）撤销" english="revo'cation" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.开除；驱逐；逐出；排出" english="expulsion" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.羁押；保管；保护；【法】抚养权" english="custody" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adv.紧密；亲密地" english="intimately" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adj.预备性的；初步的；开始的" english="pre'liminary" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.方式；举止；方法；礼貌" english="manner" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adj.疏忽的；漫不经心的；出于无心的" english="inad'vertent" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.否定；否认；取消；使无效" english="ne'gate" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.强制执行；强迫；迫使" english="en'force" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adj.合同的；契约的" english="con'tractual" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.纠纷；争端；争论；辩论" english="di'spute" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="adj.法定的；依法必须执行的" english="statutory" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
 </words>
