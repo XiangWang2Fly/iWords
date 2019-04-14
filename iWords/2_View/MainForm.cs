@@ -43,7 +43,7 @@ namespace iWords
             this.labelTotal.Text = this.training.Words.Count.ToString();
             if (this.training.Words.Count > 0)
             {
-                this.labelRate.Text = string.Format("{0:F1} %", (float)this.training.Confirm / this.training.Words.Count);
+                this.labelRate.Text = string.Format("{0:F1} %", (float)this.training.Confirm / this.training.Words.Count * 100);
             }
 
             this.ShowNextWord();
@@ -97,11 +97,21 @@ namespace iWords
                 Word word = new Word();
                 word.English = this.textBoxEnglish.Text;
                 word.Chinese = this.textBoxChinese.Text;
-                this.training.Add(word);
-                this.textBoxEnglish.Text = string.Empty;
-                this.textBoxChinese.Text = string.Empty;
-                this.training.Edit = true;
-                this.labelTotal.Text = this.training.Words.Count.ToString();
+                if (this.training.Words.Exists(u=>u.English == word.English))
+                {
+                    MessageBox.Show("The English exists!");
+                    this.textBoxEnglish.Text = string.Empty;
+                    this.textBoxChinese.Text = string.Empty;
+                }
+                else
+                {
+                    this.training.Add(word);
+                    this.textBoxEnglish.Text = string.Empty;
+                    this.textBoxChinese.Text = string.Empty;
+                    this.training.Edit = true;
+                    this.labelTotal.Text = this.training.Words.Count.ToString();
+                }
+                
             }
         }
 
