@@ -32,11 +32,14 @@
             this.labelTotal = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonNext = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.labelEnglish = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.labelChinese = new System.Windows.Forms.Label();
             this.buttonWrong = new System.Windows.Forms.Button();
             this.buttonRight = new System.Windows.Forms.Button();
             this.buttonUnknown = new System.Windows.Forms.Button();
-            this.labelEnglish = new System.Windows.Forms.Label();
-            this.labelChinese = new System.Windows.Forms.Label();
             this.buttonConfirm = new System.Windows.Forms.Button();
             this.buttonVague = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
@@ -48,13 +51,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxChinese = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.buttonNext = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -106,18 +106,70 @@
             this.groupBox1.Controls.Add(this.buttonUnknown);
             this.groupBox1.Controls.Add(this.buttonConfirm);
             this.groupBox1.Controls.Add(this.buttonVague);
-            this.groupBox1.Location = new System.Drawing.Point(202, 105);
+            this.groupBox1.Location = new System.Drawing.Point(140, 105);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(538, 396);
+            this.groupBox1.Size = new System.Drawing.Size(663, 396);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Training";
+            // 
+            // buttonNext
+            // 
+            this.buttonNext.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buttonNext.Location = new System.Drawing.Point(288, 328);
+            this.buttonNext.Name = "buttonNext";
+            this.buttonNext.Size = new System.Drawing.Size(87, 27);
+            this.buttonNext.TabIndex = 22;
+            this.buttonNext.TabStop = false;
+            this.buttonNext.Text = "Next";
+            this.buttonNext.UseVisualStyleBackColor = true;
+            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.labelEnglish);
+            this.groupBox3.Location = new System.Drawing.Point(82, 222);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(499, 100);
+            this.groupBox3.TabIndex = 21;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "English";
+            // 
+            // labelEnglish
+            // 
+            this.labelEnglish.AutoSize = true;
+            this.labelEnglish.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelEnglish.Location = new System.Drawing.Point(18, 41);
+            this.labelEnglish.Name = "labelEnglish";
+            this.labelEnglish.Size = new System.Drawing.Size(79, 19);
+            this.labelEnglish.TabIndex = 17;
+            this.labelEnglish.Text = "English";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.labelChinese);
+            this.groupBox2.Location = new System.Drawing.Point(82, 41);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(499, 100);
+            this.groupBox2.TabIndex = 20;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Chinese";
+            // 
+            // labelChinese
+            // 
+            this.labelChinese.AutoSize = true;
+            this.labelChinese.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelChinese.Location = new System.Drawing.Point(18, 41);
+            this.labelChinese.Name = "labelChinese";
+            this.labelChinese.Size = new System.Drawing.Size(79, 19);
+            this.labelChinese.TabIndex = 13;
+            this.labelChinese.Text = "Chinese";
             // 
             // buttonWrong
             // 
             this.buttonWrong.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.buttonWrong.ForeColor = System.Drawing.Color.Crimson;
-            this.buttonWrong.Location = new System.Drawing.Point(86, 328);
+            this.buttonWrong.Location = new System.Drawing.Point(82, 328);
             this.buttonWrong.Name = "buttonWrong";
             this.buttonWrong.Size = new System.Drawing.Size(87, 27);
             this.buttonWrong.TabIndex = 18;
@@ -130,7 +182,7 @@
             // 
             this.buttonRight.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.buttonRight.ForeColor = System.Drawing.Color.ForestGreen;
-            this.buttonRight.Location = new System.Drawing.Point(365, 328);
+            this.buttonRight.Location = new System.Drawing.Point(494, 328);
             this.buttonRight.Name = "buttonRight";
             this.buttonRight.Size = new System.Drawing.Size(87, 27);
             this.buttonRight.TabIndex = 19;
@@ -143,7 +195,7 @@
             // 
             this.buttonUnknown.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.buttonUnknown.ForeColor = System.Drawing.Color.Crimson;
-            this.buttonUnknown.Location = new System.Drawing.Point(86, 147);
+            this.buttonUnknown.Location = new System.Drawing.Point(82, 147);
             this.buttonUnknown.Name = "buttonUnknown";
             this.buttonUnknown.Size = new System.Drawing.Size(87, 27);
             this.buttonUnknown.TabIndex = 16;
@@ -152,31 +204,11 @@
             this.buttonUnknown.UseVisualStyleBackColor = true;
             this.buttonUnknown.Click += new System.EventHandler(this.buttonUnknown_Click);
             // 
-            // labelEnglish
-            // 
-            this.labelEnglish.AutoSize = true;
-            this.labelEnglish.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelEnglish.Location = new System.Drawing.Point(18, 41);
-            this.labelEnglish.Name = "labelEnglish";
-            this.labelEnglish.Size = new System.Drawing.Size(79, 19);
-            this.labelEnglish.TabIndex = 17;
-            this.labelEnglish.Text = "English";
-            // 
-            // labelChinese
-            // 
-            this.labelChinese.AutoSize = true;
-            this.labelChinese.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelChinese.Location = new System.Drawing.Point(18, 41);
-            this.labelChinese.Name = "labelChinese";
-            this.labelChinese.Size = new System.Drawing.Size(79, 19);
-            this.labelChinese.TabIndex = 13;
-            this.labelChinese.Text = "Chinese";
-            // 
             // buttonConfirm
             // 
             this.buttonConfirm.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.buttonConfirm.ForeColor = System.Drawing.Color.ForestGreen;
-            this.buttonConfirm.Location = new System.Drawing.Point(365, 147);
+            this.buttonConfirm.Location = new System.Drawing.Point(494, 147);
             this.buttonConfirm.Name = "buttonConfirm";
             this.buttonConfirm.Size = new System.Drawing.Size(87, 27);
             this.buttonConfirm.TabIndex = 14;
@@ -188,7 +220,7 @@
             // buttonVague
             // 
             this.buttonVague.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.buttonVague.Location = new System.Drawing.Point(227, 147);
+            this.buttonVague.Location = new System.Drawing.Point(288, 147);
             this.buttonVague.Name = "buttonVague";
             this.buttonVague.Size = new System.Drawing.Size(87, 27);
             this.buttonVague.TabIndex = 15;
@@ -278,38 +310,6 @@
             this.textBoxChinese.Size = new System.Drawing.Size(307, 23);
             this.textBoxChinese.TabIndex = 0;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.labelChinese);
-            this.groupBox2.Location = new System.Drawing.Point(86, 41);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(366, 100);
-            this.groupBox2.TabIndex = 20;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Chinese";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.labelEnglish);
-            this.groupBox3.Location = new System.Drawing.Point(86, 222);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(366, 100);
-            this.groupBox3.TabIndex = 21;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "English";
-            // 
-            // buttonNext
-            // 
-            this.buttonNext.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.buttonNext.Location = new System.Drawing.Point(227, 328);
-            this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(87, 27);
-            this.buttonNext.TabIndex = 22;
-            this.buttonNext.TabStop = false;
-            this.buttonNext.Text = "Next";
-            this.buttonNext.UseVisualStyleBackColor = true;
-            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -325,10 +325,10 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
