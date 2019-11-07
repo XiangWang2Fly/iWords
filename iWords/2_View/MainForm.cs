@@ -81,7 +81,7 @@ namespace iWords
         {
             if (this.labelChinese.Text != string.Empty)
             {
-                this.preSelect = RememberStatus.Unkonwn;
+                this.preSelect = RememberStatus.Unknown;
                 this.labelEnglish.Text = word.English;
                 this.buttonWrong.Visible = false;
                 this.buttonRight.Visible = false;
@@ -138,7 +138,7 @@ namespace iWords
             {
                 switch (preSelect)
                 {
-                    case RememberStatus.Unkonwn:
+                    case RememberStatus.Unknown:
                         word.Next = DateTime.Now.AddDays(6);
                         this.training.Edit = true;
                         break;
@@ -189,7 +189,7 @@ namespace iWords
         enum RememberStatus
         {
             Invaild,
-            Unkonwn,
+            Unknown,
             Vague,
             Known
         }
