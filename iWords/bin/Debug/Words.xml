@@ -24,7 +24,7 @@
   <word chinese="把被褥叠好" english="Let's fold up the futon" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="昨晚你打呼噜了" english="You were snoring last night" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="你一直没关灯" english="You left the light on" next="2018/6/25" know="2018/6/4" confirm="2018/7/2" />
-  <word chinese="我还困者呢" english="I am still sleepy" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="我还困者呢" english="I am still sleepy" next="2019/9/7" know="2019/8/7" confirm="0001/1/1" />
   <word chinese="我还打哈欠呢" english="I'm still yawning" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="v.打哈欠" english="yawn" next="2018/5/26" know="2018/5/5" confirm="2018/6/14" />
   <word chinese="n.宿醉" english="hangover" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
@@ -55,7 +55,7 @@
   <word chinese="n.补助；零用钱" english="a'llowance" next="2018/7/23" know="2018/7/2" confirm="0001/1/1" />
   <word chinese="你能帮我准备餐具吗？" english="Would you help me set the table?" next="2018/7/23" know="2018/7/2" confirm="0001/1/1" />
   <word chinese="你能不能快点去趟商店？" english="Would you run to the store?" next="2018/5/3" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="洗澡水好了" english="The bath is ready" next="2019/5/12" know="2019/4/11" confirm="0001/1/1" />
+  <word chinese="洗澡水好了" english="The bath is ready" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="还有多久才能做好呀？" english="How soon can you get it ready?" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="这刀挺好使的，是不是？" english="This knife cuts well, doesn't it?" next="2019/5/31" know="2018/7/2" confirm="2019/3/30" />
   <word chinese="开饭啦" english="Come and get it" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
@@ -84,7 +84,7 @@
   <word chinese="adj.通风良好的" english="drafty" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="这个房间很通风" english="It's drafty in this room" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="你去溜溜狗吧？" english="Will you take the dog for a walk?" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="请给植物浇点水" english="Please water the plants" next="2019/6/15" know="2018/7/2" confirm="2019/4/14" />
+  <word chinese="请给植物浇点水" english="Please water the plants" next="2018/7/23" know="2018/7/2" confirm="0001/1/1" />
   <word chinese="啊！怎么这么乱啊" english="What a mess!" next="2018/8/17" know="2018/7/27" confirm="0001/1/1" />
   <word chinese="把你的屋子收拾收拾" english="Clean up your room" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="n.洗涤剂" english="de'tergent" next="2018/4/8" know="0001/1/1" confirm="0001/1/1" />
@@ -568,7 +568,7 @@
   <word chinese="n.准备就绪；乐意" english="readiness" next="2018/5/25" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="血流；血液循环系统" english="bloodstream" next="2018/7/10" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="激素；荷尔蒙" english="hormone" next="2018/5/26" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="头疼" english="headache" next="2018/7/24" know="2018/7/3" confirm="0001/1/1" />
+  <word chinese="头疼" english="headache" next="2019/12/20" know="2018/7/3" confirm="2019/10/19" />
   <word chinese="n.下落；行踪 adv.在哪里" english="whereabouts" next="2018/5/27" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="教学大纲" english="syllabus" next="2018/5/27" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="v.公证" english="notarize" next="2018/5/27" know="0001/1/1" confirm="0001/1/1" />
@@ -767,79 +767,6 @@
   <word chinese="移交" english="transition" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="科目" english="discipline" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="制品" english="artifact" next="2019/4/6" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="疏忽" english="omission" next="2019/4/16" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="专业职称" english="professional designation" next="2019/4/16" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="仪器；仪表；工具；器械" english="instrument" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.交往；联想；联系；" english="associate" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.批判；拒绝；(国家,政府的)赖债；休妻" english="repudiation" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="不可抵赖性" english="non repudiation" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.实施；执行；表现；引导" english="conduct" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.合乎逻辑的；有条理的；清楚易懂的" english="coherent" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.有形的；实际的；真实的；" english="tangible" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.提供；给予；提交" english="render" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.更改；修改（衣服使更合身）" english="alter" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.长寿；长命；持久" english="longevity" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.摹本；传真本；复制本" english="fac'simile" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.产生；表现；显示" english="emanate" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.宣告；宣布；表明；声明" english="proclaim" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.保留；保持；维持；记忆力" english="retention" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="被许可人；被授权人" english="licen'see" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.同意；允许；赞同；准许" english="consent" next="2019/4/17" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.压印浮凸字体（或图案）；凹凸印" english="em'boss" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.到来；（基督教）降临节" english="advent" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adv.尽管如此" english="notwithstanding" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.依赖；依靠；信任" english="re'liance" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.清晰可读的；清楚的" english="legible" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.含有字母和数字的；字母与数字并用的" english="alphanu'meric" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.排出；把…开除（或除名）；驱逐出境；喷出" english="expel" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.（法律等的）撤销" english="revo'cation" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.开除；驱逐；逐出；排出" english="expulsion" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.羁押；保管；保护；【法】抚养权" english="custody" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adv.紧密；亲密地" english="intimately" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.预备性的；初步的；开始的" english="pre'liminary" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.方式；举止；方法；礼貌" english="manner" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.疏忽的；漫不经心的；出于无心的" english="inad'vertent" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.否定；否认；取消；使无效" english="ne'gate" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.强制执行；强迫；迫使" english="en'force" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.合同的；契约的" english="con'tractual" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.纠纷；争端；争论；辩论" english="di'spute" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.法定的；依法必须执行的" english="statutory" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.全才的；通才的；全面发展的；全面的" english="well-rounded" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.权限；司法；管辖权；管辖范围" english="juris'dictions" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.变异；变体；变奏；变种" english="vari'ation" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.承担；从事；负责；承诺" english="under'take" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.首字母缩略词" english="acronym" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.持续；贯穿；包括（广大地区）" english="span" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.努力；奋斗；力求；力争" english="strive" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.通信；通信联系；相似；来往信件" english="corre'spondence" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="网络研讨会" english="webinar" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.可证实的；可检验的；可考证的" english="veri'fiable" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.批判" english="cri'tique" next="2019/4/21" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.临时安排的；特别的；专门的" english="ad-hoc" next="2019/4/27" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.市政的；地方政府的" english="mu'nicipal" next="2019/4/27" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="同行评议" english="peer-reviewed" next="2019/4/27" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.情有可原的；可减轻的" english="extenuating" next="2019/4/27" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.掩饰(坏事)；(用借口来)减轻(罪过)；" english="ex'tenuate" next="2019/4/27" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.有同情心的；表示怜悯的" english="com'passionate" next="2019/4/27" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.恩恤休假" english="compassionate leave" next="2019/4/27" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.谨慎；慎重；审慎；自行决定的自由" english="di'scretion" next="2019/4/27" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.使恢复原职；使重返岗位" english="rein'state" next="2019/4/27" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="谷物" english="cereal" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="油脂油料" english="grease" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.透露" english="show through" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="un.飘尘" english="fugitive dust" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.地热的" english="geo'thermal" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="网络利用；治理；线束" english="harness" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="网络基本负载；基载；基本负荷" english="base-load" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="网络户；住户；家用的" english="household" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.（岩石或土壤的）含水层" english="aquifer" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="v.抵消；弥补；补偿" english="offset" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.吨（等于 1 000 公斤）" english="tonne" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.米制的；公制的" english="metric" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.氦；氦气" english="helium" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.发短促尖叫声的；吱吱叫的；嘎吱作响的" english="squeaky" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="n.新颖；新奇；新鲜；" english="novelty" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
-  <word chinese="adj.十足的；名副其实的；不折不扣的" english="veritable" next="2019/5/19" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="标准文献" english="standard literature" next="2019/9/17" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="山楂" english="c'rabapple" next="2019/9/17" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="小屋；村舍" english="cottage" next="2019/9/17" know="0001/1/1" confirm="0001/1/1" />
@@ -942,4 +869,11 @@
   <word chinese="n.炒菜锅；镬子" english="wok" next="2019/10/20" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="睡得很沉" english="sleep like a rock" next="2019/10/20" know="0001/1/1" confirm="0001/1/1" />
   <word chinese="n.农场工人" english="farmhand" next="2019/10/26" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.【电】螺线管；圆筒形线圈" english="solenoid" next="2021/9/11" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="网络 压电马达；超声波电机；超音波马达" english="piezo motor" next="2021/9/11" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.腰椎；【解】腰动脉；腰神经" english="lumbar" next="2021/9/11" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="网络 组织扁平化" english="de-layer" next="2021/9/11" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.努力；尽力；竭力 n.尝试" english="endeavour" next="2021/9/11" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="v.编织；针织；机织；织平针" english="knit" next="2021/9/19" know="0001/1/1" confirm="0001/1/1" />
+  <word chinese="n.袖子；【机】套筒；唱片套；【气】风(向)袋" english="sleeve" next="2021/9/19" know="0001/1/1" confirm="0001/1/1" />
 </words>
